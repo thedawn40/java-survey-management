@@ -1,0 +1,1452 @@
+2023-12-20 21:52:36.127 [main] ERROR com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Exception during pool initialization.com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+
+2023-12-20 21:52:42.872 [main] ERROR com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Exception during pool initialization.com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+
+2023-12-20 21:52:49.111 [main] ERROR com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Exception during pool initialization.com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+
+2023-12-20 21:52:49.114 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper [] - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-12-20 21:52:49.148 [main] ERROR o.s.boot.SpringApplication [] - Application run failedorg.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:115)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+
+2023-12-20 21:54:39.925 [main] ERROR com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Exception during pool initialization.java.sql.SQLSyntaxErrorException: Unknown database 'masjubel'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+
+2023-12-20 21:54:46.140 [main] ERROR com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Exception during pool initialization.java.sql.SQLSyntaxErrorException: Unknown database 'masjubel'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+
+2023-12-20 21:54:48.589 [main] ERROR com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Exception during pool initialization.java.sql.SQLSyntaxErrorException: Unknown database 'masjubel'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+
+2023-12-20 21:54:48.592 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper [] - Unknown database 'masjubel'
+2023-12-20 21:54:48.650 [main] ERROR o.s.boot.SpringApplication [] - Application run failedorg.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'masjubel'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+
+2023-12-20 22:00:28.534 [main] ERROR o.apache.catalina.util.LifecycleBase [] - Failed to start component [Connector[HTTP/1.1-8081]]org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+
+2023-12-20 22:00:28.582 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2023-12-20 22:09:21.369 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 34796 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:09:21.376 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:09:21.380 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:09:32.055 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:09:32.582 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:09:32.583 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:09:32.747 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:09:32.751 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:09:32.752 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:09:32.752 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:09:32.752 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:09:32.753 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:09:32.754 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:09:32.754 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:09:32.755 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:09:32.755 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:09:32.757 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:09:32.757 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:09:32.757 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:09:32.757 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:09:32.757 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:09:32.757 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:09:32.757 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:09:32.759 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:09:32.759 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:09:32.759 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:09:32.759 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:09:32.759 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:09:32.760 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:09:32.760 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:09:32.760 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:09:32.760 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:09:32.761 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:09:32.761 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:09:32.761 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:09:32.761 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:09:32.762 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:09:32.762 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:09:32.762 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:09:32.762 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:09:32.762 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:09:33.214 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51297528
+2023-12-20 22:09:33.218 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:09:33.352 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:09:33.407 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bc2afde
+2023-12-20 22:09:33.444 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7affa5e5
+2023-12-20 22:09:33.451 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bcf5fa9
+2023-12-20 22:09:33.457 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ad05aaa
+2023-12-20 22:09:33.463 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23029f25
+2023-12-20 22:09:33.480 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e9ea4d3
+2023-12-20 22:09:33.488 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@360acc91
+2023-12-20 22:09:33.496 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@469c2616
+2023-12-20 22:09:33.503 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13e0150e
+2023-12-20 22:09:33.503 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:09:41.459 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 20.946 seconds (JVM running for 22.297)
+2023-12-20 22:09:41.525 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:09:52.434 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:09:52.619 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:10:01.912 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:10:01.946 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:10:03.360 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:10:33.365 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:11:03.371 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:11:33.373 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:12:03.375 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:12:33.390 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:13:03.402 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:13:36.360 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 20584 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:13:36.366 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:13:36.368 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:13:45.434 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:13:46.026 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:13:46.026 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:13:46.322 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:13:46.327 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:13:46.328 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:13:46.328 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:13:46.329 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:13:46.330 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:13:46.331 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:13:46.331 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:13:46.331 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:13:46.331 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:13:46.332 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:13:46.332 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:13:46.332 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:13:46.333 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:13:46.333 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:13:46.333 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:13:46.333 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:13:46.334 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:13:46.334 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:13:46.334 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:13:46.334 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:13:46.335 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:13:46.336 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:13:46.336 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:13:46.337 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:13:46.338 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:13:46.338 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:13:46.339 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:13:46.339 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:13:46.339 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:13:46.339 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:13:46.339 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:13:46.340 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:13:46.340 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:13:46.340 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:13:46.658 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dd2ff87
+2023-12-20 22:13:46.661 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:13:46.764 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:13:46.781 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@135db31d
+2023-12-20 22:13:46.787 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5260b926
+2023-12-20 22:13:46.795 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6378ecf4
+2023-12-20 22:13:46.801 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@324f4669
+2023-12-20 22:13:46.807 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10b97fb3
+2023-12-20 22:13:46.814 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3601989f
+2023-12-20 22:13:46.822 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48ed9b0c
+2023-12-20 22:13:46.850 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@235fad71
+2023-12-20 22:13:46.857 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56fdaee
+2023-12-20 22:13:46.857 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:13:52.265 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 16.401 seconds (JVM running for 17.38)
+2023-12-20 22:13:52.283 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:14:16.777 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:14:46.782 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:15:16.796 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:15:46.805 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:16:16.819 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:16:46.832 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:17:16.836 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:17:37.111 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:17:46.845 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:17:54.010 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:18:16.851 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:18:46.858 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:19:16.871 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:19:46.886 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:20:16.895 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:20:46.901 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:21:11.411 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:21:16.916 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:21:27.308 [http-nio-8081-exec-11] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:21:46.932 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:22:11.049 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 33440 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:22:11.056 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:22:11.059 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:22:19.715 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:22:20.162 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:22:20.162 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:22:20.299 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:22:20.302 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:22:20.303 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:22:20.304 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:22:20.304 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:22:20.304 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:22:20.304 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:22:20.304 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:22:20.305 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:22:20.305 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:22:20.306 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:22:20.306 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:22:20.307 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:22:20.307 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:22:20.307 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:22:20.307 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:22:20.308 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:22:20.308 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:22:20.309 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:22:20.309 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:22:20.309 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:22:20.309 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:22:20.309 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:22:20.309 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:22:20.310 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:22:20.310 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:22:20.310 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:22:20.311 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:22:20.311 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:22:20.311 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:22:20.311 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:22:20.311 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:22:20.311 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:22:20.312 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:22:20.312 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:22:20.613 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bdda8a7
+2023-12-20 22:22:20.616 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:22:20.720 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:22:20.731 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68c099bc
+2023-12-20 22:22:20.737 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29fd9387
+2023-12-20 22:22:20.742 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@181eb8e5
+2023-12-20 22:22:20.752 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49d26cc8
+2023-12-20 22:22:20.757 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e866464
+2023-12-20 22:22:20.762 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d9c51a3
+2023-12-20 22:22:20.767 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ef2eb0
+2023-12-20 22:22:20.772 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cffcac5
+2023-12-20 22:22:20.792 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@768bc20f
+2023-12-20 22:22:20.793 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:22:28.014 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 17.606 seconds (JVM running for 18.782)
+2023-12-20 22:22:28.068 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:22:50.726 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:22:53.369 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:23:20.734 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:23:50.745 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:24:24.984 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 13268 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:24:24.993 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:24:24.996 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:24:35.705 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:24:36.125 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:24:36.126 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:24:36.255 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:24:36.258 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:24:36.259 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:24:36.260 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:24:36.260 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:24:36.260 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:24:36.261 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:24:36.261 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:24:36.262 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:24:36.263 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:24:36.264 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:24:36.264 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:24:36.265 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:24:36.265 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:24:36.265 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:24:36.265 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:24:36.265 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:24:36.266 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:24:36.266 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:24:36.266 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:24:36.267 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:24:36.267 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:24:36.267 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:24:36.267 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:24:36.267 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:24:36.268 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:24:36.268 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:24:36.269 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:24:36.270 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:24:36.270 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:24:36.270 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:24:36.271 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:24:36.271 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:24:36.271 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:24:36.271 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:24:36.661 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f19d423
+2023-12-20 22:24:36.664 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:24:36.792 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:24:36.813 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68c099bc
+2023-12-20 22:24:36.818 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29fd9387
+2023-12-20 22:24:36.824 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@181eb8e5
+2023-12-20 22:24:36.833 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49d26cc8
+2023-12-20 22:24:36.838 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e866464
+2023-12-20 22:24:36.844 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d9c51a3
+2023-12-20 22:24:36.849 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ef2eb0
+2023-12-20 22:24:36.855 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cffcac5
+2023-12-20 22:24:36.862 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@768bc20f
+2023-12-20 22:24:36.863 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:24:44.689 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 20.345 seconds (JVM running for 21.639)
+2023-12-20 22:24:44.712 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:24:44.962 [http-nio-8081-exec-1] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:24:44.964 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:45.684 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:45.691 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:45.692 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:45.695 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:45.697 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:45.697 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:45.891 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:56.378 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:24:56.379 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:25:06.809 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:25:36.826 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:26:06.834 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:26:36.842 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:27:16.016 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 22844 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:27:16.026 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:27:16.031 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:27:25.699 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:27:26.203 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:27:26.204 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:27:26.427 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:27:26.436 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:27:26.437 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:27:26.438 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:27:26.438 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:27:26.438 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:27:26.439 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:27:26.439 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:27:26.440 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:27:26.449 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:27:26.451 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:27:26.451 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:27:26.451 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:27:26.451 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:27:26.452 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:27:26.453 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:27:26.453 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:27:26.453 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:27:26.453 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:27:26.454 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:27:26.454 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:27:26.454 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:27:26.454 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:27:26.454 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:27:26.455 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:27:26.455 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:27:26.456 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:27:26.456 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:27:26.456 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:27:26.456 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:27:26.457 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:27:26.457 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:27:26.457 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:27:26.457 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:27:26.457 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:27:27.101 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d3f8661
+2023-12-20 22:27:27.105 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:27:27.215 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:27:27.300 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2653388e
+2023-12-20 22:27:27.309 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@676e32b5
+2023-12-20 22:27:27.315 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@564354ec
+2023-12-20 22:27:27.320 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@741cdfa
+2023-12-20 22:27:27.327 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e07fe36
+2023-12-20 22:27:27.434 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30f361a
+2023-12-20 22:27:27.440 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9991dcd
+2023-12-20 22:27:27.448 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@399b0495
+2023-12-20 22:27:27.453 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45dbe60f
+2023-12-20 22:27:27.455 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:27:33.924 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 18.735 seconds (JVM running for 20.094)
+2023-12-20 22:27:33.944 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:27:57.218 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:28:03.140 [http-nio-8081-exec-3] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:28:03.141 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.735 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.768 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.769 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.772 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.774 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.775 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.965 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.966 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:03.966 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:04.005 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:28:27.222 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:29:02.977 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 4520 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:29:02.981 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:29:02.983 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:29:12.041 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:29:13.240 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:29:13.241 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:29:13.553 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:29:13.557 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:29:13.558 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:29:13.559 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:29:13.559 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:29:13.560 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:29:13.562 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:29:13.563 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:29:13.563 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:29:13.564 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:29:13.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:29:13.566 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:29:13.568 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:29:13.568 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:29:13.568 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:29:13.569 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:29:13.569 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:29:13.569 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:29:13.570 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:29:13.570 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:29:13.570 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:29:13.570 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:29:13.571 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:29:13.571 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:29:13.571 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:29:13.571 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:29:13.573 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:29:13.573 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:29:13.573 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:29:13.574 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:29:13.574 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:29:13.574 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:29:13.574 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:29:13.574 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:29:13.575 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:29:14.145 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@190bf8e4
+2023-12-20 22:29:14.149 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:29:14.257 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:29:14.281 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a86fbc2
+2023-12-20 22:29:14.289 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bbbf1f9
+2023-12-20 22:29:14.296 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a8a4ea5
+2023-12-20 22:29:14.304 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b940eb6
+2023-12-20 22:29:14.334 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b3f3946
+2023-12-20 22:29:14.340 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fdaf18b
+2023-12-20 22:29:14.349 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b743a3d
+2023-12-20 22:29:14.399 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@529b2380
+2023-12-20 22:29:14.407 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f4a48c1
+2023-12-20 22:29:14.408 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:29:23.336 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 20.736 seconds (JVM running for 21.458)
+2023-12-20 22:29:23.361 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:29:23.954 [http-nio-8081-exec-3] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:29:23.961 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:24.881 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:24.886 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:24.887 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:24.890 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:25.145 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:25.147 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:25.149 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:25.165 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:44.269 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:29:45.920 [http-nio-8081-exec-9] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:29:45.921 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:45.958 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:45.958 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:45.962 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:45.962 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:45.999 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:46.000 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:46.001 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:46.007 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:46.039 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.569 [http-nio-8081-exec-8] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:29:57.570 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.592 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.594 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.595 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.596 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.613 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.614 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.614 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.614 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:29:57.675 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:30:14.272 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:30:44.283 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:31:17.024 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 12040 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:31:17.029 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:31:17.031 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:31:25.313 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:31:26.182 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:31:26.184 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:31:26.445 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:31:26.453 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:31:26.455 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:31:26.460 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:31:26.461 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:31:26.462 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:31:26.464 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:31:26.465 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:31:26.467 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:31:26.471 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:31:26.472 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:31:26.474 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:31:26.475 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:31:26.475 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:31:26.475 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:31:26.475 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:31:26.476 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:31:26.476 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:31:26.476 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:31:26.477 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:31:26.477 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:31:26.477 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:31:26.478 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:31:26.479 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:31:26.479 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:31:26.480 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:31:26.481 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:31:26.482 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:31:26.482 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:31:26.482 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:31:26.482 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:31:26.482 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:31:26.482 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:31:26.482 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:31:26.483 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:31:27.041 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dd591b9
+2023-12-20 22:31:27.044 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:31:27.162 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:31:27.190 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@572b9345
+2023-12-20 22:31:27.196 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1616997e
+2023-12-20 22:31:27.203 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@274aeee2
+2023-12-20 22:31:27.209 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76396631
+2023-12-20 22:31:27.216 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2da33d24
+2023-12-20 22:31:27.222 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7277fca1
+2023-12-20 22:31:27.227 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ce1b11d
+2023-12-20 22:31:27.232 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e3fa18d
+2023-12-20 22:31:27.238 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38e6a651
+2023-12-20 22:31:27.238 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:31:35.944 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 19.425 seconds (JVM running for 20.458)
+2023-12-20 22:31:36.032 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:31:36.557 [http-nio-8081-exec-3] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:31:36.560 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:38.189 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:38.213 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:38.218 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:38.219 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:38.660 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:38.749 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:38.749 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.584 [http-nio-8081-exec-7] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:31:45.585 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.610 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.610 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.629 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.629 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.645 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.649 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.651 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.654 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:45.681 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:31:57.180 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:32:27.191 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:32:57.193 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:33:27.209 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:33:38.590 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 6084 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:33:38.594 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:33:38.596 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:33:47.188 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:33:48.283 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:33:48.285 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:33:48.549 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:33:48.554 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:33:48.559 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:33:48.559 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:33:48.560 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:33:48.560 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:33:48.560 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:33:48.561 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:33:48.561 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:33:48.561 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:33:48.562 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:33:48.563 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:33:48.563 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:33:48.564 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:33:48.564 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:33:48.564 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:33:48.564 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:33:48.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:33:48.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:33:48.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:33:48.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:33:48.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:33:48.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:33:48.566 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:33:48.566 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:33:48.566 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:33:48.567 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:33:48.568 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:33:48.568 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:33:48.568 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:33:48.568 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:33:48.569 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:33:48.569 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:33:48.569 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:33:48.570 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:33:49.225 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@493968a9
+2023-12-20 22:33:49.229 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:33:49.352 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:33:49.368 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b96e370
+2023-12-20 22:33:49.376 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aabe94b
+2023-12-20 22:33:49.384 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b6ba711
+2023-12-20 22:33:49.389 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a841604
+2023-12-20 22:33:49.396 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19b124a2
+2023-12-20 22:33:49.403 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6eca0829
+2023-12-20 22:33:49.410 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@232c2b58
+2023-12-20 22:33:49.415 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@195dd642
+2023-12-20 22:33:49.431 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cdbd5e9
+2023-12-20 22:33:49.432 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:33:55.790 [main] ERROR o.apache.catalina.util.LifecycleBase [] - Failed to start component [Connector[HTTP/1.1-8081]]org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+
+2023-12-20 22:33:55.831 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2023-12-20 22:33:55.845 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Shutdown initiated...
+2023-12-20 22:33:55.846 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:33:55.850 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@493968a9: (connection evicted)
+2023-12-20 22:33:55.867 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b96e370: (connection evicted)
+2023-12-20 22:33:55.868 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@aabe94b: (connection evicted)
+2023-12-20 22:33:55.869 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b6ba711: (connection evicted)
+2023-12-20 22:33:55.870 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6a841604: (connection evicted)
+2023-12-20 22:33:55.871 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19b124a2: (connection evicted)
+2023-12-20 22:33:55.873 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6eca0829: (connection evicted)
+2023-12-20 22:33:55.874 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@232c2b58: (connection evicted)
+2023-12-20 22:33:55.875 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@195dd642: (connection evicted)
+2023-12-20 22:33:55.876 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2cdbd5e9: (connection evicted)
+2023-12-20 22:33:55.877 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-20 22:33:55.879 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Shutdown completed.
+2023-12-20 22:33:57.222 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:34:03.683 [http-nio-8081-exec-9] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:34:03.686 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.821 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.821 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.821 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.821 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.866 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.867 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.866 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:03.938 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.710 [http-nio-8081-exec-1] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:34:21.712 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.740 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.742 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.744 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.751 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.782 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.782 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:21.835 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:34:27.232 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:34:57.234 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:35:27.237 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:35:57.248 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:36:27.255 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:36:54.529 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 9272 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:36:54.757 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:36:54.761 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:36:57.259 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:37:05.286 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:37:05.907 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:37:05.908 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:37:06.201 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:37:06.205 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:37:06.206 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:37:06.207 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:37:06.207 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:37:06.208 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:37:06.208 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:37:06.209 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:37:06.209 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:37:06.209 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:37:06.210 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:37:06.211 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:37:06.211 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:37:06.211 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:37:06.211 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:37:06.212 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:37:06.212 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:37:06.212 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:37:06.212 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:37:06.213 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:37:06.213 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:37:06.213 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:37:06.213 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:37:06.214 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:37:06.214 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:37:06.214 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:37:06.215 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:37:06.215 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:37:06.215 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:37:06.216 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:37:06.216 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:37:06.216 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:37:06.216 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:37:06.216 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:37:06.217 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:37:06.549 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@718ad3a6
+2023-12-20 22:37:06.551 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:37:06.653 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:37:06.676 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3054b338
+2023-12-20 22:37:06.682 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7169b903
+2023-12-20 22:37:06.688 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d24ec4
+2023-12-20 22:37:06.695 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1146464c
+2023-12-20 22:37:06.701 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41e9dd19
+2023-12-20 22:37:06.709 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15083bbb
+2023-12-20 22:37:06.736 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@715c1619
+2023-12-20 22:37:06.743 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68b72149
+2023-12-20 22:37:06.749 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1718c7fe
+2023-12-20 22:37:06.750 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:37:10.511 [http-nio-8081-exec-6] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:37:10.512 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:10.643 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:10.645 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:10.672 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:10.672 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:10.802 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:14.509 [main] ERROR o.apache.catalina.util.LifecycleBase [] - Failed to start component [Connector[HTTP/1.1-8081]]org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+
+2023-12-20 22:37:14.567 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2023-12-20 22:37:14.616 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Shutdown initiated...
+2023-12-20 22:37:14.617 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:37:14.622 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@718ad3a6: (connection evicted)
+2023-12-20 22:37:14.654 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3054b338: (connection evicted)
+2023-12-20 22:37:14.656 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7169b903: (connection evicted)
+2023-12-20 22:37:14.658 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40d24ec4: (connection evicted)
+2023-12-20 22:37:14.659 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1146464c: (connection evicted)
+2023-12-20 22:37:14.660 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@41e9dd19: (connection evicted)
+2023-12-20 22:37:14.662 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15083bbb: (connection evicted)
+2023-12-20 22:37:14.663 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@715c1619: (connection evicted)
+2023-12-20 22:37:14.664 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68b72149: (connection evicted)
+2023-12-20 22:37:14.665 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1718c7fe: (connection evicted)
+2023-12-20 22:37:14.666 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-20 22:37:14.667 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Shutdown completed.
+2023-12-20 22:37:22.766 [http-nio-8081-exec-6] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:37:22.768 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:22.789 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:22.790 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:22.790 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:22.792 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:22.903 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:37:27.264 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:37:57.265 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:38:27.270 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:38:57.271 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:39:27.287 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:40:00.043 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 27060 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:40:00.047 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:40:00.050 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:40:09.021 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:40:09.472 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:40:09.473 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:40:09.626 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:40:09.631 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:40:09.632 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:40:09.633 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:40:09.633 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:40:09.634 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:40:09.637 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:40:09.638 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:40:09.638 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:40:09.638 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:40:09.640 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:40:09.641 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:40:09.641 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:40:09.641 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:40:09.641 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:40:09.642 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:40:09.642 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:40:09.642 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:40:09.642 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:40:09.642 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:40:09.643 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:40:09.643 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:40:09.643 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:40:09.643 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:40:09.643 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:40:09.644 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:40:09.645 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:40:09.646 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:40:09.646 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:40:09.646 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:40:09.646 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:40:09.647 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:40:09.647 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:40:09.647 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:40:09.647 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:40:10.007 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7977f046
+2023-12-20 22:40:10.009 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:40:10.121 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:40:10.132 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@490dea5
+2023-12-20 22:40:10.139 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45add49e
+2023-12-20 22:40:10.147 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7422d3f6
+2023-12-20 22:40:10.154 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25822bd1
+2023-12-20 22:40:10.161 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b37ee82
+2023-12-20 22:40:10.169 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21cc72f2
+2023-12-20 22:40:10.181 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d02b6ce
+2023-12-20 22:40:10.195 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4af3fb68
+2023-12-20 22:40:10.200 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53ffd6b4
+2023-12-20 22:40:10.201 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:40:17.503 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 17.986 seconds (JVM running for 19.244)
+2023-12-20 22:40:17.545 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:40:40.129 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:41:02.310 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 27244 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\masjubel-new\masjubel-thymeleaf)
+2023-12-20 22:41:02.315 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:41:02.317 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:41:14.210 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+2023-12-20 22:41:15.197 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:41:15.198 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:41:15.463 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:41:15.467 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:41:15.468 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:41:15.469 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:41:15.469 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:41:15.470 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:41:15.470 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:41:15.470 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:41:15.471 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:41:15.471 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:41:15.472 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:41:15.472 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:41:15.473 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:41:15.473 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:41:15.473 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:41:15.473 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:41:15.474 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:41:15.474 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:41:15.474 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:41:15.474 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:41:15.475 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:41:15.475 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:41:15.476 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:41:15.478 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:41:15.478 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:41:15.479 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:41:15.479 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:41:15.480 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:41:15.480 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:41:15.480 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:41:15.480 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:41:15.480 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:41:15.481 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:41:15.481 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:41:15.481 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:41:15.908 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73e399cc
+2023-12-20 22:41:15.912 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:41:16.022 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:41:16.031 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34471104
+2023-12-20 22:41:16.038 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@757a1b3f
+2023-12-20 22:41:16.045 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44456b49
+2023-12-20 22:41:16.051 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1555e470
+2023-12-20 22:41:16.057 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bcce19
+2023-12-20 22:41:16.063 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@111b1d84
+2023-12-20 22:41:16.068 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f0f4f39
+2023-12-20 22:41:16.073 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25a24dd2
+2023-12-20 22:41:16.080 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23473fda
+2023-12-20 22:41:16.081 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:41:25.646 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 23.794 seconds (JVM running for 24.819)
+2023-12-20 22:41:25.670 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:41:46.025 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:42:16.032 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:54:41.088 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 17788 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\java-thymeleaf)
+2023-12-20 22:54:41.103 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:54:41.112 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:54:58.116 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@6d06d69c
+
+2023-12-20 22:54:59.578 [main] DEBUG com.security.JwtRequestFilter [] - Filter 'jwtRequestFilter' configured for use
+2023-12-20 22:54:59.589 [main] DEBUG c.s.RequestFilterAllowanonymous [] - Filter 'requestFilterAllowanonymous' configured for use
+2023-12-20 22:54:59.869 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:54:59.892 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:54:59.900 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:54:59.935 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:54:59.951 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:54:59.952 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:54:59.954 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:54:59.955 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:54:59.964 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:54:59.971 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:54:59.988 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:55:00.001 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:55:00.042 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:55:00.051 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:55:00.054 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:55:00.097 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:55:00.112 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:55:00.159 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:55:00.198 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:55:00.215 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:55:00.218 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:55:00.221 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:55:00.225 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:55:00.231 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:55:00.249 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:55:00.272 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:55:00.294 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:55:00.297 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:55:00.301 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:55:00.303 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:55:00.306 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:55:00.317 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:55:00.329 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:55:00.331 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:55:00.343 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:55:01.020 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3580134d
+2023-12-20 22:55:01.025 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:55:01.139 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:55:01.162 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73b2612f
+2023-12-20 22:55:01.172 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@328f6b14
+2023-12-20 22:55:01.181 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f7b9ff
+2023-12-20 22:55:01.193 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52a0945b
+2023-12-20 22:55:01.203 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fb40bcc
+2023-12-20 22:55:01.212 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56ee2a4a
+2023-12-20 22:55:01.223 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bf91bb7
+2023-12-20 22:55:01.231 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fa9eb00
+2023-12-20 22:55:01.241 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c76aac2
+2023-12-20 22:55:01.243 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:55:18.465 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 38.621 seconds (JVM running for 41.546)
+2023-12-20 22:55:18.546 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:55:22.651 [http-nio-8081-exec-3] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:55:22.656 [http-nio-8081-exec-3] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:23.997 [http-nio-8081-exec-8] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:23.998 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:23.999 [http-nio-8081-exec-7] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:24.001 [http-nio-8081-exec-4] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:24.312 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:24.312 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:24.328 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:24.350 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:24.375 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:55:31.144 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:56:01.161 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:56:31.179 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:57:01.210 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:57:22.290 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 27704 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\java-thymeleaf)
+2023-12-20 22:57:22.302 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:57:22.309 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:57:31.262 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:57:37.281 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@6d06d69c
+
+2023-12-20 22:57:38.481 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:57:38.494 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:57:38.498 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:57:38.500 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:57:38.504 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:57:38.507 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:57:38.522 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:57:38.532 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:57:38.540 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:57:38.545 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:57:38.547 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:57:38.550 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:57:38.556 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:57:38.561 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:57:38.565 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:57:38.576 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:57:38.577 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:57:38.580 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:57:38.582 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:57:38.589 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:57:38.590 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:57:38.590 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:57:38.591 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:57:38.593 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:57:38.593 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:57:38.594 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:57:38.596 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:57:38.596 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:57:38.599 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:57:38.604 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:57:38.606 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:57:38.608 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:57:38.609 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:57:38.611 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:57:38.615 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:57:39.405 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ea96ff2
+2023-12-20 22:57:39.413 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:57:39.515 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:57:39.640 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@560c481b
+2023-12-20 22:57:39.690 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17314220
+2023-12-20 22:57:39.712 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@266c1340
+2023-12-20 22:57:39.728 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@771ebd6f
+2023-12-20 22:57:39.746 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e233b9
+2023-12-20 22:57:39.777 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@735026d8
+2023-12-20 22:57:39.794 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32c840fa
+2023-12-20 22:57:39.805 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@970848f
+2023-12-20 22:57:39.820 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4157dc3a
+2023-12-20 22:57:39.822 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:57:39.953 [http-nio-8081-exec-6] INFO  c.s.RequestFilterAllowanonymous [] - AllowanonymousFilter begin
+2023-12-20 22:57:39.978 [http-nio-8081-exec-6] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:57:42.574 [http-nio-8081-exec-9] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:57:42.592 [http-nio-8081-exec-5] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:57:42.608 [http-nio-8081-exec-1] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:57:42.612 [http-nio-8081-exec-10] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:57:43.129 [http-nio-8081-exec-2] WARN  com.security.JwtRequestFilter [] - JWT Token does not begin with Bearer String
+2023-12-20 22:57:55.085 [main] ERROR o.apache.catalina.util.LifecycleBase [] - Failed to start component [Connector[HTTP/1.1-8081]]org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+
+2023-12-20 22:57:55.281 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2023-12-20 22:57:55.374 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Shutdown initiated...
+2023-12-20 22:57:55.452 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:57:55.496 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ea96ff2: (connection evicted)
+2023-12-20 22:57:55.526 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@560c481b: (connection evicted)
+2023-12-20 22:57:55.532 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@17314220: (connection evicted)
+2023-12-20 22:57:55.579 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@266c1340: (connection evicted)
+2023-12-20 22:57:55.582 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@771ebd6f: (connection evicted)
+2023-12-20 22:57:55.635 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e233b9: (connection evicted)
+2023-12-20 22:57:55.638 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@735026d8: (connection evicted)
+2023-12-20 22:57:55.660 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32c840fa: (connection evicted)
+2023-12-20 22:57:55.687 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@970848f: (connection evicted)
+2023-12-20 22:57:55.692 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase [] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4157dc3a: (connection evicted)
+2023-12-20 22:57:55.750 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-20 22:57:55.751 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Shutdown completed.
+2023-12-20 22:58:01.307 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:58:11.863 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 29168 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\java-thymeleaf)
+2023-12-20 22:58:11.872 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 22:58:11.877 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 22:58:27.644 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@6d06d69c
+
+2023-12-20 22:58:29.733 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 22:58:29.755 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 22:58:29.758 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 22:58:29.760 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 22:58:29.765 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 22:58:29.766 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 22:58:29.768 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 22:58:29.769 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 22:58:29.771 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 22:58:29.772 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 22:58:29.778 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 22:58:29.803 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 22:58:29.817 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 22:58:29.825 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 22:58:29.827 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 22:58:29.831 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 22:58:29.837 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 22:58:29.855 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 22:58:29.861 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 22:58:29.864 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 22:58:29.871 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 22:58:29.887 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 22:58:29.891 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 22:58:29.894 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 22:58:29.896 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 22:58:29.898 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 22:58:29.902 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 22:58:29.904 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 22:58:29.911 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 22:58:29.914 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 22:58:29.920 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 22:58:29.923 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 22:58:29.927 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 22:58:29.931 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 22:58:29.935 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 22:58:31.092 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3245efdb
+2023-12-20 22:58:31.101 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 22:58:31.217 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 22:58:31.330 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e2148f3
+2023-12-20 22:58:31.344 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f1c42c8
+2023-12-20 22:58:31.358 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e592e8e
+2023-12-20 22:58:31.375 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f33bd87
+2023-12-20 22:58:31.389 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e0b19ee
+2023-12-20 22:58:31.405 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b7d260d
+2023-12-20 22:58:31.424 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fd4991c
+2023-12-20 22:58:31.440 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57a877eb
+2023-12-20 22:58:31.453 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@243c632e
+2023-12-20 22:58:31.455 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:58:55.041 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 44.112 seconds (JVM running for 45.785)
+2023-12-20 22:58:55.176 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 22:59:01.347 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 22:59:31.381 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:00:01.393 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:00:31.406 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:01:01.435 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:01:31.447 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:02:17.121 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 13640 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\java-thymeleaf)
+2023-12-20 23:02:17.126 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 23:02:17.131 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 23:02:35.518 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@6d06d69c
+
+2023-12-20 23:02:37.315 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 23:02:37.323 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 23:02:37.335 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 23:02:37.339 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 23:02:37.343 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 23:02:37.350 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 23:02:37.354 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 23:02:37.358 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 23:02:37.362 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 23:02:37.385 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 23:02:37.388 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 23:02:37.391 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 23:02:37.396 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 23:02:37.401 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 23:02:37.409 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 23:02:37.428 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 23:02:37.437 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 23:02:37.440 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 23:02:37.441 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 23:02:37.448 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 23:02:37.451 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 23:02:37.453 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 23:02:37.457 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 23:02:37.458 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 23:02:37.459 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 23:02:37.463 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 23:02:37.474 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 23:02:37.483 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 23:02:37.500 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 23:02:37.508 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 23:02:37.516 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 23:02:37.522 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 23:02:37.525 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 23:02:37.529 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 23:02:37.533 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 23:02:38.323 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39ead1b7
+2023-12-20 23:02:38.330 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 23:02:38.439 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 23:02:38.468 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f37e497
+2023-12-20 23:02:38.480 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e0aeeac
+2023-12-20 23:02:38.491 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f3ef54e
+2023-12-20 23:02:38.506 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e2511e3
+2023-12-20 23:02:38.551 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49d0129
+2023-12-20 23:02:38.560 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a6beb7f
+2023-12-20 23:02:38.572 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42ad1ddb
+2023-12-20 23:02:38.586 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@115126f8
+2023-12-20 23:02:38.615 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bc683c5
+2023-12-20 23:02:38.617 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:02:52.283 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 35.746 seconds (JVM running for 36.845)
+2023-12-20 23:02:52.329 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 23:03:08.449 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:03:38.465 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:04:08.471 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:04:38.477 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:05:08.481 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:07:26.729 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 1636 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\java-thymeleaf)
+2023-12-20 23:07:26.743 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 23:07:26.753 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 23:07:43.269 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@6d06d69c
+
+2023-12-20 23:07:44.003 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 23:07:44.013 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 23:07:44.016 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 23:07:44.017 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 23:07:44.020 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 23:07:44.022 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 23:07:44.026 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 23:07:44.029 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 23:07:44.031 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 23:07:44.033 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 23:07:44.037 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 23:07:44.038 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 23:07:44.041 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 23:07:44.042 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 23:07:44.043 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 23:07:44.044 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 23:07:44.045 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 23:07:44.046 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 23:07:44.047 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 23:07:44.048 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 23:07:44.049 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 23:07:44.050 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 23:07:44.090 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 23:07:44.130 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 23:07:44.134 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 23:07:44.150 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 23:07:44.162 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 23:07:44.169 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 23:07:44.188 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 23:07:44.197 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 23:07:44.206 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 23:07:44.213 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 23:07:44.216 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 23:07:44.218 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 23:07:44.219 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 23:07:44.964 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11170228
+2023-12-20 23:07:44.969 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 23:07:45.108 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 23:07:45.222 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@377125dd
+2023-12-20 23:07:45.247 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@764c2fe6
+2023-12-20 23:07:45.257 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47f0fa92
+2023-12-20 23:07:45.266 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1663d0a9
+2023-12-20 23:07:45.276 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d9cb4d
+2023-12-20 23:07:45.286 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@122daa7b
+2023-12-20 23:07:45.301 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70b876b1
+2023-12-20 23:07:45.313 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b46c672
+2023-12-20 23:07:45.331 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2811a348
+2023-12-20 23:07:45.332 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:08:00.649 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 35.019 seconds (JVM running for 36.235)
+2023-12-20 23:08:00.686 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 23:08:15.142 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:08:45.150 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:09:19.504 [main] INFO  com.SpringBootThymeleafApplication [] - Starting SpringBootThymeleafApplication on LAPTOP-0LPC6BTU with PID 33052 (started by luthfi alfarisi in C:\Users\luthfi alfarisi\eclipse-workspace\java-thymeleaf)
+2023-12-20 23:09:19.524 [main] DEBUG com.SpringBootThymeleafApplication [] - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2023-12-20 23:09:19.538 [main] INFO  com.SpringBootThymeleafApplication [] - No active profile set, falling back to default profiles: default
+2023-12-20 23:09:30.112 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@6d06d69c
+
+2023-12-20 23:09:31.610 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - HikariPool-1 - configuration:
+2023-12-20 23:09:31.632 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - allowPoolSuspension.............false
+2023-12-20 23:09:31.694 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - autoCommit......................true
+2023-12-20 23:09:31.701 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - catalog.........................none
+2023-12-20 23:09:31.704 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionInitSql...............none
+2023-12-20 23:09:31.706 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTestQuery.............none
+2023-12-20 23:09:31.709 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - connectionTimeout...............30000
+2023-12-20 23:09:31.713 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSource......................none
+2023-12-20 23:09:31.721 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceClassName.............none
+2023-12-20 23:09:31.725 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceJNDI..................none
+2023-12-20 23:09:31.736 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - dataSourceProperties............{password=<masked>}
+2023-12-20 23:09:31.742 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-12-20 23:09:31.774 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckProperties...........{}
+2023-12-20 23:09:31.781 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - healthCheckRegistry.............none
+2023-12-20 23:09:31.786 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - idleTimeout.....................600000
+2023-12-20 23:09:31.798 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - initializationFailTimeout.......1
+2023-12-20 23:09:31.800 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - isolateInternalQueries..........false
+2023-12-20 23:09:31.801 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - jdbcUrl.........................jdbc:mysql://localhost:3306/masjubel
+2023-12-20 23:09:31.803 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - leakDetectionThreshold..........0
+2023-12-20 23:09:31.805 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maxLifetime.....................1800000
+2023-12-20 23:09:31.807 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - maximumPoolSize.................10
+2023-12-20 23:09:31.823 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricRegistry..................none
+2023-12-20 23:09:31.831 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - metricsTrackerFactory...........none
+2023-12-20 23:09:31.834 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - minimumIdle.....................10
+2023-12-20 23:09:31.841 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - password........................<masked>
+2023-12-20 23:09:31.851 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - poolName........................"HikariPool-1"
+2023-12-20 23:09:31.864 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - readOnly........................false
+2023-12-20 23:09:31.868 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - registerMbeans..................false
+2023-12-20 23:09:31.874 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - scheduledExecutor...............none
+2023-12-20 23:09:31.881 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - schema..........................none
+2023-12-20 23:09:31.884 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - threadFactory...................internal
+2023-12-20 23:09:31.886 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - transactionIsolation............default
+2023-12-20 23:09:31.896 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - username........................"root"
+2023-12-20 23:09:31.902 [main] DEBUG com.zaxxer.hikari.HikariConfig [] - validationTimeout...............5000
+2023-12-20 23:09:31.906 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Starting...
+2023-12-20 23:09:32.461 [main] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1818390b
+2023-12-20 23:09:32.466 [main] INFO  com.zaxxer.hikari.HikariDataSource [] - HikariPool-1 - Start completed.
+2023-12-20 23:09:32.584 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-20 23:09:32.598 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47f44fea
+2023-12-20 23:09:32.608 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c945d1
+2023-12-20 23:09:32.620 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3785e554
+2023-12-20 23:09:32.628 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66e6ba9e
+2023-12-20 23:09:32.637 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77ecfecf
+2023-12-20 23:09:32.645 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62a820d9
+2023-12-20 23:09:32.654 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45070960
+2023-12-20 23:09:32.665 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d490663
+2023-12-20 23:09:32.675 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59b06a64
+2023-12-20 23:09:32.676 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:09:46.889 [main] INFO  com.SpringBootThymeleafApplication [] - Started SpringBootThymeleafApplication in 28.211 seconds (JVM running for 29.674)
+2023-12-20 23:09:46.928 [main] INFO  com.SpringBootThymeleafApplication [] - Server Run Success
+2023-12-20 23:10:02.596 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:10:32.598 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-20 23:11:02.602 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool [] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
