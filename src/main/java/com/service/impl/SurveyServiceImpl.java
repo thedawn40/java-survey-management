@@ -16,6 +16,8 @@ import com.model.Question;
 import com.model.Survey;
 import com.service.SurveyService;
 
+import lombok.extern.slf4j.Slf4j;
+
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -25,6 +27,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+@Slf4j
 public class SurveyServiceImpl implements SurveyService{
 
     @Autowired
@@ -62,7 +65,7 @@ public class SurveyServiceImpl implements SurveyService{
                                 map.setType(cn.getRichStringCellValue().toString());          
                             }
                             if(cn.getColumnIndex()==3){
-                                map.setParentQuestionId(cn.getRichStringCellValue().toString());
+                                map.setParentQuestionId(" "+cn.getRichStringCellValue().toString());
                             }
                             if(cn.getColumnIndex()==4){
                                 map.setCategory(cn.getRichStringCellValue().toString());
@@ -145,6 +148,40 @@ public class SurveyServiceImpl implements SurveyService{
 
         return dtos;
 
+    }
+
+    @Override
+    public List<QuestionDto> getSubQuestion(String referenceId) {
+        List<QuestionDto> result = new ArrayList<>();
+        try {
+            List<Question> questions = questionDao.getSubQuestions(referenceId);
+            if(questions.size()>0){
+                for(int i =0; i< questions.size(); i++){
+                    QuestionDto dto = new QuestionDto();
+                    dto = new ModelMapper().map(questions.get(i), QuestionDto.class);
+                    List<Map<String,Object>> listAnswer = new ArrayList<>();
+                    log.info(">>>>>> "+String.valueOf(questions.size()));;
+                    if(dto.getType().equalsIgnoreCase("multiple choice")){
+                        List<Question> options = questionDao.getOptions(dto.getReferenceId());
+                        log.info(">>>>>> "+String.valueOf(options.size()));;
+                        if(options.size()>0){
+                            for(int j = 0; j < options.size(); j++){
+                                Map<String,Object> map = new HashMap<>();
+                                map.put("id", options.get(j).getId());
+                                map.put("referenceId", options.get(j).getReferenceId());
+                                map.put("answer", options.get(j).getQuestion()); 
+                                listAnswer.add(map);  
+                            }
+                        }
+                        dto.setOptions(listAnswer);
+                    }
+                    result.add(dto);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
     }
     
 }

@@ -12,7 +12,11 @@ public interface QuestionDao extends JpaRepository<Question, String> {
     @Query(value = "select q.* from question q where q.parent_question_id is null order by q.reference_id asc", nativeQuery = true)
     List<Question> initiate();
     
-    @Query(value = "select q.* from question q where q.parent_question_id like ?1 and type = 'answer'", nativeQuery = true)
+    @Query(value = "select q.* from question q where q.parent_question_id like concat('% ',?1, '%') and type = 'answer'", nativeQuery = true)
     List<Question> getOptions(String parentQuestionId);
+
+
+    @Query(value = "select q.* from question q where q.parent_question_id like concat('% ',?1, '%') ", nativeQuery = true)
+    List<Question> getSubQuestions(String parentQuestionId);
 
 }

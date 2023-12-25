@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>Toko Emas - Dashboard</title>
+<link rel="stylesheet"
+	th:href="@{http://localhost:8081/css/sb-admin-2.css}" />
+
+<style type="text/css">
+</style>
+</head>
+
+<body>
+	<h1>Report</h1>
+	<table>
+		<tr>
+			<th>Total Users</th>
+			<th>Revenue</th>
+		</tr>
+		<tr>
+			<td>[[${totalUser}]]</td>
+			<td>[[${revenue}]]</td>
+		</tr>
+	</table>
+</body>
+
+</html>

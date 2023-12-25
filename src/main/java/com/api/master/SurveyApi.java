@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -29,7 +30,6 @@ public class SurveyApi {
     @PostMapping("/post-read-template")
     @ResponseBody
     public ResponseEntity<?> readTemplate(@RequestParam("file") MultipartFile file) throws Exception {
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>.. ");
         try {
                 byte[] bytes = file.getBytes();
                 List<QuestionDto> fileData = surveyService.readFile(bytes);
@@ -47,9 +47,25 @@ public class SurveyApi {
     @GetMapping("/get-initiate-question")
     @ResponseBody
     public ResponseEntity<?> initiate() throws Exception {
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>.. ");
         try {
             List<QuestionDto> data = surveyService.initiateQuestion();
+            if(data==null){
+                return ResponseHandler.generateResponse("Template Not Found", HttpStatus.NOT_FOUND, null);
+            }
+            return ResponseHandler.generateResponse("success", HttpStatus.OK, data);
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.MULTI_STATUS, null);
+        }                
+    }
+
+    @GetMapping("/get-sub-question/{referenceId}")
+    @ResponseBody
+    public ResponseEntity<?> checkSubQuestion(@PathVariable("referenceId")String refId) throws Exception {
+        try {
+            System.out.println(">>>>>>>>>>> "+refId);
+            List<QuestionDto> data = surveyService.getSubQuestion(refId);
             if(data==null){
                 return ResponseHandler.generateResponse("Template Not Found", HttpStatus.NOT_FOUND, null);
             }

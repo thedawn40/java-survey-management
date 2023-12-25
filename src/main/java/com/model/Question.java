@@ -1,5 +1,7 @@
 package com.model;
 
+import java.util.List;
+
 import javax.persistence.*;
 
 import lombok.Data;
@@ -18,8 +20,8 @@ public class Question {
 
     @Column(name = "reference_id")
     private String referenceId;
-
-    @Column(name = "parent_question_id")
+    
+    @Column(name = "parent_question_id", columnDefinition = "LONGTEXT")
     private String parentQuestionId;
 
     @Column(name = "survey_id")
